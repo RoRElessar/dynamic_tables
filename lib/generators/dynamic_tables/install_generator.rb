@@ -30,7 +30,7 @@ module DynamicTables
       end
 
       private
-#
+
       def dynamic_table_model_content
         buffer = <<-CONTENT
   has_one :table_head, dependent: :destroy
