@@ -14,7 +14,7 @@ class CreateDynamicTables < ActiveRecord::Migration<%= migration_version %>
 
     create_table :table_rows do |t|
       <%= table_row_migration_data -%>
-      t.timestamps
+     t.timestamps
     end
 
   end
