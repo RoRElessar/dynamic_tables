@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/rails/activemodel-serializers-xml.git
+  remote: https://github.com/rails/activemodel-serializers-xml.git
   revision: 93689638c28525acc65afb638fce866826532641
   specs:
     activemodel-serializers-xml (1.0.2)
@@ -83,7 +83,9 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     nio4r (2.5.1)
-    nokogiri (1.10.4-x64-mingw32)
+    nokogiri (1.10.8)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.8-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     rack (2.0.7)
     rack-test (1.1.0)
@@ -129,6 +131,7 @@ GEM
     websocket-extensions (0.1.4)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
